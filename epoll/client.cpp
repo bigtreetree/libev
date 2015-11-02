@@ -5,7 +5,7 @@
 #include <arpa/inet.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <unistd.h>
 
 using namespace std;
 #define MAXLINE  800 
