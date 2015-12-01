@@ -1772,7 +1772,7 @@ array_nextsize (int elem, int cur, int cnt)
 /*
  *函 数:array_realloc 
  *功 能:调用内存分配函数, 返回新的内存块的地址
- *参 数:elem 单个元素的大小, base指向老的内存, 
+ *参 数:elem 单个元素的大小, base指向老的内存, *cur当前元素的个数，cnt需要的元素的个数
  */
 static void * noinline ecb_cold
 array_realloc (int elem, void *base, int *cur, int cnt)
